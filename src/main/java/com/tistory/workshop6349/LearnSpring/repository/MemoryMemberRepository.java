@@ -1,12 +1,14 @@
 package com.tistory.workshop6349.LearnSpring.repository;
 
 import com.tistory.workshop6349.LearnSpring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     private static final HashMap<Long, Member> store = new HashMap<>();

@@ -1,6 +1,7 @@
 package com.tistory.workshop6349.LearnSpring.repository;
 
 import com.tistory.workshop6349.LearnSpring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
