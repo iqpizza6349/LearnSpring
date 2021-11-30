@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 
-@Repository
+//@Repository // https://aig2029.tistory.com/248 참고
 public class MemoryMemberRepository implements MemberRepository {
 
     private static final HashMap<Long, Member> store = new HashMap<>();
